@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.cryX" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/cryx_red</item>
+        <item name="colorPrimaryVariant">@color/cryx_accent</item>
+        <item name="colorOnPrimary">#FFFFFF</item>
+        <item name="android:windowBackground">@color/cryx_dark</item>
+        <item name="colorSurface">@color/cryx_mid</item>
+        <item name="colorOnSurface">#CCCCCC</item>
+    </style>
+</resources>

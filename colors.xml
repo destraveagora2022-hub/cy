@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="cryx_red">#FF1A1A</color>
+    <color name="cryx_dark">#0D0000</color>
+    <color name="cryx_mid">#1A0000</color>
+    <color name="cryx_accent">#CC0000</color>
+</resources>

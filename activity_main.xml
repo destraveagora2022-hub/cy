@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0D0000">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="4dp"
+            android:fontFamily="monospace"
+            android:text="cryX"
+            android:textColor="#FF1A1A"
+            android:textSize="56sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="32dp"
+            android:text="FREE FIRE EXTERNAL"
+            android:textColor="#882222"
+            android:textSize="11sp"
+            android:letterSpacing="0.3" />
+
+        <View android:layout_width="match_parent" android:layout_height="1dp"
+            android:background="#2A0000" android:layout_marginBottom="24dp"/>
+
+        <!-- ESP -->
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:text="ESP" android:textColor="#FF4444" android:textSize="10sp"
+            android:textStyle="bold" android:letterSpacing="0.3"
+            android:layout_marginBottom="8dp"/>
+
+        <Switch android:id="@+id/switchEsp"
+            android:layout_width="match_parent" android:layout_height="52dp"
+            android:text="Caixa ESP" android:textColor="#CCCCCC" android:textSize="15sp"
+            android:checked="true" android:thumbTint="#FF1A1A" android:trackTint="#440000"/>
+
+        <Switch android:id="@+id/switchSkeleton"
+            android:layout_width="match_parent" android:layout_height="52dp"
+            android:text="Esqueleto ESP" android:textColor="#CCCCCC" android:textSize="15sp"
+            android:checked="true" android:thumbTint="#FF1A1A" android:trackTint="#440000"/>
+
+        <Switch android:id="@+id/switchHp"
+            android:layout_width="match_parent" android:layout_height="52dp"
+            android:text="Vida ESP" android:textColor="#CCCCCC" android:textSize="15sp"
+            android:checked="true" android:thumbTint="#FF1A1A" android:trackTint="#440000"/>
+
+        <View android:layout_width="match_parent" android:layout_height="1dp"
+            android:background="#2A0000" android:layout_marginTop="12dp" android:layout_marginBottom="20dp"/>
+
+        <!-- Aimbot -->
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:text="AIMBOT" android:textColor="#FF4444" android:textSize="10sp"
+            android:textStyle="bold" android:letterSpacing="0.3"
+            android:layout_marginBottom="8dp"/>
+
+        <Switch android:id="@+id/switchAimbot"
+            android:layout_width="match_parent" android:layout_height="52dp"
+            android:text="Aimbot" android:textColor="#CCCCCC" android:textSize="15sp"
+            android:thumbTint="#FF1A1A" android:trackTint="#440000"/>
+
+        <View android:layout_width="match_parent" android:layout_height="1dp"
+            android:background="#2A0000" android:layout_marginTop="12dp" android:layout_marginBottom="28dp"/>
+
+        <!-- Botões -->
+        <Button android:id="@+id/btnLaunch"
+            android:layout_width="match_parent" android:layout_height="56dp"
+            android:text="▶  INICIAR"
+            android:backgroundTint="#CC0000"
+            android:textColor="#FFFFFF"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="12dp"/>
+
+        <Button android:id="@+id/btnStop"
+            android:layout_width="match_parent" android:layout_height="56dp"
+            android:text="■  PARAR"
+            android:backgroundTint="#1A0000"
+            android:textColor="#FF4444"
+            android:textSize="15sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="24dp"
+            android:text="root obrigatório · offsets por versão"
+            android:textColor="#440000"
+            android:textSize="10sp"/>
+
+    </LinearLayout>
+</ScrollView>
